@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">IIMT</string>
 
@@ -13,4 +14,24 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="Admission_No">Admission No.</string>
+    <string name="University_Roll_No">University Roll No</string>
+    <string name="Name">Name</string>
+    <string name="Course">Course</string>
+    <string name="Branch">Branch</string>
+    <string name="Section">Section</string>
+    <string name="Year">Year</string>
+    <string name="Password">Password</string>
+    <string name="ReType_Password">Re-Type Password</string>
+    <string name="Phone">Phone No.</string>
+    <string name="mail">E-Mail</string>
+    <string name="sup">Sign Up</string>
+    String[] course = {"B.Tech", "M.Tech", "MBA", "MCA", "B.Pharma"};
+    <string-array name="course">
+        <item>B.Tech</item>
+        <item>B.Pharma</item>
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>MTech</item>
+    </string-array>
 </resources>

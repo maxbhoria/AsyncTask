@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">IIMT</string>
-
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_create">Create New</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
     </string>
+
     <string name="Admission_No">Admission No.</string>
     <string name="University_Roll_No">University Roll No</string>
     <string name="Name">Name</string>
@@ -26,12 +25,35 @@
     <string name="Phone">Phone No.</string>
     <string name="mail">E-Mail</string>
     <string name="sup">Sign Up</string>
-    String[] course = {"B.Tech", "M.Tech", "MBA", "MCA", "B.Pharma"};
-    <string-array name="course">
+    <string-array name="Course">
         <item>B.Tech</item>
         <item>B.Pharma</item>
         <item>MBA</item>
         <item>MCA</item>
         <item>MTech</item>
+    </string-array>
+    <string-array name="Year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Section">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Electronics</item>
+        <item>Civil</item>
+        <item>Agriculture</item>
+        <item>IT</item>
     </string-array>
 </resources>
